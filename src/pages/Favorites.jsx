@@ -24,9 +24,7 @@ export default function Favorites() {
             Deine Favoriten
           </Heading>
           <Text mt="3" color="gray.600" maxW="700px">
-            Auf dieser Seite erscheinen alle Rezepte, die du mit dem Herz markierst.
-            So kannst du in der Prasentation gut zeigen, dass deine App mit
-            Benutzerinteraktion arbeitet.
+            Auf dieser Seite findest du alle Rezepte, die du mit einem Herz markiert hast. So kannst du sie jederzeit schnell wiederfinden.
           </Text>
           <Text mt="3" color="gray.500" fontSize="sm">
             {hasCloudSync && currentUser
